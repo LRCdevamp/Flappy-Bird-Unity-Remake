@@ -8,6 +8,7 @@ public class pipeSpawnerScript : MonoBehaviour
     public float spawnRate = 3 ;
     private float timer = 0;
     public float heightOffset = 5 ;
+
     
     // Start is called before the first frame update
     void Start()
@@ -41,6 +42,6 @@ public class pipeSpawnerScript : MonoBehaviour
             transform.rotation);
         Debug.Log("Pipe Spawned");
     }
-
+    
 }
 
